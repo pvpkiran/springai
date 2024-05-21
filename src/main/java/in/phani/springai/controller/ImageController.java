@@ -40,7 +40,6 @@ public class ImageController {
         return response.getResult().getOutput().getContent();
     }
 
-
     @GetMapping("/describe-code")
     public String describeCode() throws IOException {
         byte[] imageData = new ClassPathResource("/images/composefile.png").getContentAsByteArray();
