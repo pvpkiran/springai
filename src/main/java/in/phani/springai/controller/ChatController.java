@@ -21,7 +21,7 @@ public class ChatController {
 
     @GetMapping("/chat")
     public String chat() {
-        return chatClient.call("Tell me a dog joke");
+        return chatClient.call("Name a phrase from mankuthimmana kagga");
     }
 
 
